@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3014D24CB19BCCF62CE5CF81 /* Pods_Innov8tif_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C4954CC8A5C4D1A961BCBA /* Pods_Innov8tif_AssignmentTests.framework */; };
+		6D0CB2987B88192374EEF37F /* Pods_Innov8tif_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870436B3DE9DABE67FCF080D /* Pods_Innov8tif_Assignment.framework */; };
+		8FA112C5594ABB4431C0E1CE /* Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F6972B9A8345B5DFF7C737 /* Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework */; };
+		AA7492A027983BD900655346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74929F27983BD900655346 /* AppDelegate.swift */; };
+		AA7492A227983BD900655346 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492A127983BD900655346 /* SceneDelegate.swift */; };
+		AA7492A427983BD900655346 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492A327983BD900655346 /* PostViewController.swift */; };
+		AA7492A727983BD900655346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7492A527983BD900655346 /* Main.storyboard */; };
+		AA7492A927983BDF00655346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7492A827983BDF00655346 /* Assets.xcassets */; };
+		AA7492AC27983BDF00655346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7492AA27983BDF00655346 /* LaunchScreen.storyboard */; };
+		AA7492B727983BE000655346 /* Innov8tif_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492B627983BE000655346 /* Innov8tif_AssignmentTests.swift */; };
+		AA7492C227983BE000655346 /* Innov8tif_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492C127983BE000655346 /* Innov8tif_AssignmentUITests.swift */; };
+		AA7492D32799998900655346 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492D12799998900655346 /* PostTableViewCell.swift */; };
+		AA7492D42799998900655346 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7492D22799998900655346 /* PostTableViewCell.xib */; };
+		AA7492D727999A8200655346 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492D627999A8200655346 /* PostModel.swift */; };
+		AA7492DA27999AB100655346 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492D927999AB100655346 /* HTTPHelper.swift */; };
+		AA7492DC27999AED00655346 /* url.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492DB27999AED00655346 /* url.swift */; };
+		AA7492E02799B17700655346 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492DF2799B17700655346 /* CommentModel.swift */; };
+		AA7492E32799B29A00655346 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492E22799B29A00655346 /* CommentViewController.swift */; };
+		AA7492E62799B3CC00655346 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492E42799B3CC00655346 /* CommentTableViewCell.swift */; };
+		AA7492E72799B3CC00655346 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7492E52799B3CC00655346 /* CommentTableViewCell.xib */; };
+		AA7492E92799D5E700655346 /* CircularSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492E82799D5E700655346 /* CircularSpinner.swift */; };
+		AA7492EF2799DDA600655346 /* CircularSpinner.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7492EE2799DDA600655346 /* CircularSpinner.xib */; };
+		AA7492F1279A502400655346 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492F0279A502400655346 /* Connectivity.swift */; };
+		AA7492F3279A5BEB00655346 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7492F2279A5BEB00655346 /* Timer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7492B327983BE000655346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA74929427983BD800655346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA74929B27983BD900655346;
+			remoteInfo = "Innov8tif Assignment";
+		};
+		AA7492BE27983BE000655346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA74929427983BD800655346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA74929B27983BD900655346;
+			remoteInfo = "Innov8tif Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B8F9FF5083A4328787115D7 /* Pods-Innov8tif AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-Innov8tif AssignmentTests/Pods-Innov8tif AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		53D64D9696E4DD6D6874D20A /* Pods-Innov8tif Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Innov8tif Assignment/Pods-Innov8tif Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		80848F9DB80028058FACD7B8 /* Pods-Innov8tif AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Innov8tif AssignmentTests/Pods-Innov8tif AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F6972B9A8345B5DFF7C737 /* Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		870436B3DE9DABE67FCF080D /* Pods_Innov8tif_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Innov8tif_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1442B591752D4DC6BB13A4 /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C4954CC8A5C4D1A961BCBA /* Pods_Innov8tif_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Innov8tif_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA74929C27983BD900655346 /* Innov8tif Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Innov8tif Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA74929F27983BD900655346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA7492A127983BD900655346 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA7492A327983BD900655346 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		AA7492A627983BD900655346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7492A827983BDF00655346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7492AB27983BDF00655346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7492AD27983BDF00655346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7492B227983BE000655346 /* Innov8tif AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Innov8tif AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7492B627983BE000655346 /* Innov8tif_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Innov8tif_AssignmentTests.swift; sourceTree = "<group>"; };
+		AA7492B827983BE000655346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7492BD27983BE000655346 /* Innov8tif AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Innov8tif AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7492C127983BE000655346 /* Innov8tif_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Innov8tif_AssignmentUITests.swift; sourceTree = "<group>"; };
+		AA7492C327983BE000655346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7492D12799998900655346 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AA7492D22799998900655346 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		AA7492D627999A8200655346 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		AA7492D927999AB100655346 /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
+		AA7492DB27999AED00655346 /* url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = url.swift; sourceTree = "<group>"; };
+		AA7492DF2799B17700655346 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		AA7492E22799B29A00655346 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		AA7492E42799B3CC00655346 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		AA7492E52799B3CC00655346 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		AA7492E82799D5E700655346 /* CircularSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSpinner.swift; sourceTree = "<group>"; };
+		AA7492EE2799DDA600655346 /* CircularSpinner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircularSpinner.xib; sourceTree = "<group>"; };
+		AA7492F0279A502400655346 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		AA7492F2279A5BEB00655346 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		C5898F3940C161549DCCB9CF /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD96275376BE42F6C3BC1976 /* Pods-Innov8tif Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Innov8tif Assignment.release.xcconfig"; path = "Target Support Files/Pods-Innov8tif Assignment/Pods-Innov8tif Assignment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA74929927983BD900655346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0CB2987B88192374EEF37F /* Pods_Innov8tif_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492AF27983BE000655346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3014D24CB19BCCF62CE5CF81 /* Pods_Innov8tif_AssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492BA27983BE000655346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA112C5594ABB4431C0E1CE /* Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A6CBB8729194836270976D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53D64D9696E4DD6D6874D20A /* Pods-Innov8tif Assignment.debug.xcconfig */,
+				FD96275376BE42F6C3BC1976 /* Pods-Innov8tif Assignment.release.xcconfig */,
+				9E1442B591752D4DC6BB13A4 /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.debug.xcconfig */,
+				C5898F3940C161549DCCB9CF /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.release.xcconfig */,
+				80848F9DB80028058FACD7B8 /* Pods-Innov8tif AssignmentTests.debug.xcconfig */,
+				4B8F9FF5083A4328787115D7 /* Pods-Innov8tif AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5872BB3FA210709728F04D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870436B3DE9DABE67FCF080D /* Pods_Innov8tif_Assignment.framework */,
+				80F6972B9A8345B5DFF7C737 /* Pods_Innov8tif_Assignment_Innov8tif_AssignmentUITests.framework */,
+				A0C4954CC8A5C4D1A961BCBA /* Pods_Innov8tif_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA74929327983BD800655346 = {
+			isa = PBXGroup;
+			children = (
+				AA74929E27983BD900655346 /* Innov8tif Assignment */,
+				AA7492B527983BE000655346 /* Innov8tif AssignmentTests */,
+				AA7492C027983BE000655346 /* Innov8tif AssignmentUITests */,
+				AA74929D27983BD900655346 /* Products */,
+				01A6CBB8729194836270976D /* Pods */,
+				5872BB3FA210709728F04D74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA74929D27983BD900655346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA74929C27983BD900655346 /* Innov8tif Assignment.app */,
+				AA7492B227983BE000655346 /* Innov8tif AssignmentTests.xctest */,
+				AA7492BD27983BE000655346 /* Innov8tif AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA74929E27983BD900655346 /* Innov8tif Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				AA74929F27983BD900655346 /* AppDelegate.swift */,
+				AA7492A127983BD900655346 /* SceneDelegate.swift */,
+				AA7492A527983BD900655346 /* Main.storyboard */,
+				AA7492A827983BDF00655346 /* Assets.xcassets */,
+				AA7492AA27983BDF00655346 /* LaunchScreen.storyboard */,
+				AA7492AD27983BDF00655346 /* Info.plist */,
+				AA7492DD27999FF400655346 /* ViewController */,
+				AA7492D827999AA200655346 /* Utilities */,
+				AA7492D527999A7100655346 /* Model */,
+			);
+			path = "Innov8tif Assignment";
+			sourceTree = "<group>";
+		};
+		AA7492B527983BE000655346 /* Innov8tif AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492B627983BE000655346 /* Innov8tif_AssignmentTests.swift */,
+				AA7492B827983BE000655346 /* Info.plist */,
+			);
+			path = "Innov8tif AssignmentTests";
+			sourceTree = "<group>";
+		};
+		AA7492C027983BE000655346 /* Innov8tif AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492C127983BE000655346 /* Innov8tif_AssignmentUITests.swift */,
+				AA7492C327983BE000655346 /* Info.plist */,
+			);
+			path = "Innov8tif AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		AA7492D527999A7100655346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492D627999A8200655346 /* PostModel.swift */,
+				AA7492DF2799B17700655346 /* CommentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA7492D827999AA200655346 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492D927999AB100655346 /* HTTPHelper.swift */,
+				AA7492DB27999AED00655346 /* url.swift */,
+				AA7492E82799D5E700655346 /* CircularSpinner.swift */,
+				AA7492EE2799DDA600655346 /* CircularSpinner.xib */,
+				AA7492F0279A502400655346 /* Connectivity.swift */,
+				AA7492F2279A5BEB00655346 /* Timer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AA7492DD27999FF400655346 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492DE2799A00300655346 /* PostVC */,
+				AA7492E12799B27100655346 /* CommentVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA7492DE2799A00300655346 /* PostVC */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492A327983BD900655346 /* PostViewController.swift */,
+				AA7492D12799998900655346 /* PostTableViewCell.swift */,
+				AA7492D22799998900655346 /* PostTableViewCell.xib */,
+			);
+			path = PostVC;
+			sourceTree = "<group>";
+		};
+		AA7492E12799B27100655346 /* CommentVC */ = {
+			isa = PBXGroup;
+			children = (
+				AA7492E22799B29A00655346 /* CommentViewController.swift */,
+				AA7492E42799B3CC00655346 /* CommentTableViewCell.swift */,
+				AA7492E52799B3CC00655346 /* CommentTableViewCell.xib */,
+			);
+			path = CommentVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA74929B27983BD900655346 /* Innov8tif Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7492C627983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif Assignment" */;
+			buildPhases = (
+				7446AB4BC0F7598DD9856CDD /* [CP] Check Pods Manifest.lock */,
+				AA74929827983BD900655346 /* Sources */,
+				AA74929927983BD900655346 /* Frameworks */,
+				AA74929A27983BD900655346 /* Resources */,
+				CCF7C65B9C92A18554A5A21F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Innov8tif Assignment";
+			productName = "Innov8tif Assignment";
+			productReference = AA74929C27983BD900655346 /* Innov8tif Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7492B127983BE000655346 /* Innov8tif AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7492C927983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif AssignmentTests" */;
+			buildPhases = (
+				109D7C9ECA59C3AD7B9C25B7 /* [CP] Check Pods Manifest.lock */,
+				AA7492AE27983BE000655346 /* Sources */,
+				AA7492AF27983BE000655346 /* Frameworks */,
+				AA7492B027983BE000655346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7492B427983BE000655346 /* PBXTargetDependency */,
+			);
+			name = "Innov8tif AssignmentTests";
+			productName = "Innov8tif AssignmentTests";
+			productReference = AA7492B227983BE000655346 /* Innov8tif AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7492BC27983BE000655346 /* Innov8tif AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7492CC27983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif AssignmentUITests" */;
+			buildPhases = (
+				74E1F3AD2339F9DD50824A96 /* [CP] Check Pods Manifest.lock */,
+				AA7492B927983BE000655346 /* Sources */,
+				AA7492BA27983BE000655346 /* Frameworks */,
+				AA7492BB27983BE000655346 /* Resources */,
+				56D700E7EC4151499BD9586A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7492BF27983BE000655346 /* PBXTargetDependency */,
+			);
+			name = "Innov8tif AssignmentUITests";
+			productName = "Innov8tif AssignmentUITests";
+			productReference = AA7492BD27983BE000655346 /* Innov8tif AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA74929427983BD800655346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AA74929B27983BD900655346 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AA7492B127983BE000655346 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AA74929B27983BD900655346;
+					};
+					AA7492BC27983BE000655346 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AA74929B27983BD900655346;
+					};
+				};
+			};
+			buildConfigurationList = AA74929727983BD800655346 /* Build configuration list for PBXProject "Innov8tif Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA74929327983BD800655346;
+			productRefGroup = AA74929D27983BD900655346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA74929B27983BD900655346 /* Innov8tif Assignment */,
+				AA7492B127983BE000655346 /* Innov8tif AssignmentTests */,
+				AA7492BC27983BE000655346 /* Innov8tif AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA74929A27983BD900655346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7492AC27983BDF00655346 /* LaunchScreen.storyboard in Resources */,
+				AA7492A927983BDF00655346 /* Assets.xcassets in Resources */,
+				AA7492EF2799DDA600655346 /* CircularSpinner.xib in Resources */,
+				AA7492A727983BD900655346 /* Main.storyboard in Resources */,
+				AA7492D42799998900655346 /* PostTableViewCell.xib in Resources */,
+				AA7492E72799B3CC00655346 /* CommentTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492B027983BE000655346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492BB27983BE000655346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109D7C9ECA59C3AD7B9C25B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Innov8tif AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D700E7EC4151499BD9586A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7446AB4BC0F7598DD9856CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Innov8tif Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E1F3AD2339F9DD50824A96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Innov8tif Assignment-Innov8tif AssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF7C65B9C92A18554A5A21F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment/Pods-Innov8tif Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment/Pods-Innov8tif Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Innov8tif Assignment/Pods-Innov8tif Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA74929827983BD900655346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7492A427983BD900655346 /* PostViewController.swift in Sources */,
+				AA7492E02799B17700655346 /* CommentModel.swift in Sources */,
+				AA7492D727999A8200655346 /* PostModel.swift in Sources */,
+				AA7492A027983BD900655346 /* AppDelegate.swift in Sources */,
+				AA7492F3279A5BEB00655346 /* Timer.swift in Sources */,
+				AA7492DA27999AB100655346 /* HTTPHelper.swift in Sources */,
+				AA7492A227983BD900655346 /* SceneDelegate.swift in Sources */,
+				AA7492D32799998900655346 /* PostTableViewCell.swift in Sources */,
+				AA7492E62799B3CC00655346 /* CommentTableViewCell.swift in Sources */,
+				AA7492F1279A502400655346 /* Connectivity.swift in Sources */,
+				AA7492DC27999AED00655346 /* url.swift in Sources */,
+				AA7492E92799D5E700655346 /* CircularSpinner.swift in Sources */,
+				AA7492E32799B29A00655346 /* CommentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492AE27983BE000655346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7492B727983BE000655346 /* Innov8tif_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7492B927983BE000655346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7492C227983BE000655346 /* Innov8tif_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7492B427983BE000655346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA74929B27983BD900655346 /* Innov8tif Assignment */;
+			targetProxy = AA7492B327983BE000655346 /* PBXContainerItemProxy */;
+		};
+		AA7492BF27983BE000655346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA74929B27983BD900655346 /* Innov8tif Assignment */;
+			targetProxy = AA7492BE27983BE000655346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7492A527983BD900655346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7492A627983BD900655346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7492AA27983BDF00655346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7492AB27983BDF00655346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7492C427983BE000655346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA7492C527983BE000655346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7492C727983BE000655346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D64D9696E4DD6D6874D20A /* Pods-Innov8tif Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7492C827983BE000655346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD96275376BE42F6C3BC1976 /* Pods-Innov8tif Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA7492CA27983BE000655346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80848F9DB80028058FACD7B8 /* Pods-Innov8tif AssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Innov8tif Assignment.app/Innov8tif Assignment";
+			};
+			name = Debug;
+		};
+		AA7492CB27983BE000655346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8F9FF5083A4328787115D7 /* Pods-Innov8tif AssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Innov8tif Assignment.app/Innov8tif Assignment";
+			};
+			name = Release;
+		};
+		AA7492CD27983BE000655346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1442B591752D4DC6BB13A4 /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Innov8tif Assignment";
+			};
+			name = Debug;
+		};
+		AA7492CE27983BE000655346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5898F3940C161549DCCB9CF /* Pods-Innov8tif Assignment-Innov8tif AssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Innov8tif AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Test.Innov8tif-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Innov8tif Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA74929727983BD800655346 /* Build configuration list for PBXProject "Innov8tif Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7492C427983BE000655346 /* Debug */,
+				AA7492C527983BE000655346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7492C627983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7492C727983BE000655346 /* Debug */,
+				AA7492C827983BE000655346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7492C927983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7492CA27983BE000655346 /* Debug */,
+				AA7492CB27983BE000655346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7492CC27983BE000655346 /* Build configuration list for PBXNativeTarget "Innov8tif AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7492CD27983BE000655346 /* Debug */,
+				AA7492CE27983BE000655346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA74929427983BD800655346 /* Project object */;
+}

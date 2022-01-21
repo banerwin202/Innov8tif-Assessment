@@ -1,0 +1,6 @@
+framework module Pods_Innov8tif_AssignmentTests {
+  umbrella header "Pods-Innov8tif AssignmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
